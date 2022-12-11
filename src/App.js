@@ -1,14 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Card } from './components/atoms/Card/Card';
+import { Radiogroupe } from './components/molecule/Radiogroupe/Radiogroupe';
 import { ThemeProvider } from 'styled-components';
 import {getTheme} from './themes/default.js'
 function App() {
   return (
     <ThemeProvider theme={getTheme()}>
     <div className="App">
-      Ganeshka toolkit
+      <Radiogroupe/>
     </div>
     </ThemeProvider>
   );
