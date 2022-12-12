@@ -3,7 +3,7 @@ import React from "react";
 import {Radiogroupe } from '../../components/molecule/Radiogroupe/Radiogroupe'
 
 export default {
-    title:"Atoms/radiogroupe",
+    title:"molecule/radiogroupe",
     component: Radiogroupe,
     argType: {
         backgroundColor: {control: 'color'}
